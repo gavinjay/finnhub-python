@@ -22,7 +22,7 @@ import finnhub
 # Configure API key
 configuration = finnhub.Configuration(
     api_key={
-        'token': '<API_KEY>' # Replace this
+        'token': 'brhq62vrh5r807v5j6eg' # Replace this
     }
 )
 
@@ -163,7 +163,7 @@ print(finnhub_client.forex_candles('OANDA:EUR_USD', 'D', 1590988249, 1591852249)
 # Crypto Candles
 print(finnhub_client.crypto_candles('BINANCE:BTCUSDT', 'D', 1590988249, 1591852249))
 
-    
+
 ```
 
 ## License
